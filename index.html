@@ -1,0 +1,503 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>12 Monkeys presents</title>
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+<link href="3211.css" type="text/css" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100,900' rel='stylesheet' type='text/css'>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src="jscript/first_js.js" type="text/javascript"></script>
+
+<link href='https://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-72750440-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+    
+<!--Jquery UI-->
+     <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+ <!--End-->   
+    
+    <script>
+  $(function() {
+    $( "#dialog1" ).dialog({
+        width: 1000,
+      autoOpen: false,
+      show: {
+        effect: "blind",
+        duration: 1000
+      },
+      hide: {
+        effect: "blind",
+        duration: 500
+      }
+    });
+ 
+    $( "#opener" ).click(function() {
+      $( "#dialog1" ).dialog( "open" );
+    });
+  });
+  </script>
+    
+    <script>
+    $(function(){
+        $("#form2").submit(function(e){
+
+            // Stop the form actually posting
+            e.preventDefault();
+
+            // Send the request
+            $.post("contact.php", {
+                age: $("age").val(),
+                email: $("email").val(),
+                }, function(d){
+                console.log(d);
+                // Here we handle the response from the script
+                // We are just going to alert the result for now
+                alert(d);
+            });
+        });
+    });
+    </script>
+<!--alert-->
+<script>
+function showAlert(){
+alert ("This is to tell you that the site is not mobile optimized. Visit when on a PC : 12M.IN "); 
+}
+</script>
+</head>
+
+<body onload="showAlert()">
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div id="lol1" class="first">
+ <div class="moving-zone">
+    <div class="popup">
+        <div class="popup-content">
+            <div class="popup-text">
+                Hi There, I am in search for a  <span style="color: orange">web developer</span> to partner for a <span style="color: orange">startup</span>,<br/>
+                Let me walk you through the <span style="color: orange">entirety</span> of it
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="second">
+                <div class="one23">
+                    <div style="height: 10%">    </div><img src="images/1.svg"/>
+                </div>
+                <div class="onetwo3">
+                    <div class="boris"><span>Quitick</span> <br/>"A company of the 21st century won't be formed<br/> on the shackles of structure,<br/> but on the foray of flexibility"</div>
+                </div>
+                <div class="slideA">
+                   
+                                        <div class="doris" id="abc1" >
+                        <div style="font-family: Roboto;position:absolute; width:100%;height:100%;top: 18%;font-size: 400%; color:aqua;"><b>MISSION - 2050</b>
+                                            </div>
+                        <div style="position:absolute;height:auto;width:auto;top:44%;left:48%;"><img style="zoom:100%;"src="images/slideA_doris_abc1_logo.gif"/>
+                                            </div>
+                        <div style="font-family: Roboto;position:absolute; width:100%;height:100%;top: 66%;font-size: 300%; color:crimson;"><b>pop this</b>
+                                            </div>
+                    
+                    </div>
+                                        <div class="doris" id="abc2">
+                                            <div style="font-family: Roboto;position:absolute; width:100%;height:100%;top: 20%;right:2%;font-size: 150%; color: white; text-align:right;">
+                                            To discover a procedure for development of a framework <br/>for an intergalactic space mission by simulating it on earth<br/> through the active development of companies having<br/> diverse goals which are probabilistic in nature.
+                    </div>
+                                            <div style="color:crimson;font-family: Roboto;position:absolute; width:100%;height:100%;top: 70%;left:7%;text-style:bold;text-align:left;font-size: 200%;"><b>pop to open next</b>
+                                            </div>
+                    
+                    </div>
+                                        <div class="doris" id="abc3">
+                                            <div style="color:white;font-family: Roboto;position:absolute; width:100%;height:100%;top: 42%;text-style:bold;font-size: 300%;">Let's start to understand this . . .</div>
+                    </div>
+                                        <div class="doris" id="abc4">
+                                            <div style="color:white;font-family: Roboto;position:absolute; width:100%;height:100%;top: 22%;left:5%;text-align:left;text-style:bold;font-size: 300%;">simulating....</div>
+                                            <div style="color:white;font-family: Roboto;position:absolute; width:100%;height:100%;top: 52%;left:5%;text-align:left;text-style:bold;font-size: 300%;">but What is a Simulation?</div>
+                    </div>
+                                        <div class="doris" id="abc5">
+                                        <div style="color:white;font-family: Roboto;position:absolute; width:100%;height:100%;top: 12%;left:8%;text-align:left;text-style:bold;font-size: 300%;">@Wikipedia says</div>
+                                            <div style="color:white;font-family: Roboto;position:absolute; width:100%;height:100%;top: 24%;left:8%;text-align:left;text-style:bold;font-size: 150%;">Simulation is the imitation<br/>of the operation of a real-world<br/> process or system over time.<br/> The act of simulating something<br/> first requires that a model be developed;<br/> this model represents the key<br/> characteristics or behaviors/functions of the<br/>selected physical or abstract system or<br/> process.</div>
+                                            
+                                            <div style="color:crimson;font-family: Roboto;position:absolute; width:100%;height:100%;top: 82%;left:8%;text-align:left;text-style:bold;font-size: 300%;"><b>pop this..</b></div>
+                    </div>
+                                        <div class="doris" id="abc6">
+                    <div style="color:white;font-family: Roboto;position:absolute; width:100%;height:100%;top: 12%;left:5%;text-align:left;text-style:bold;font-size: 300%;">Let's understand it like this:</div>
+                                            <div style="color:brown;font-family: Roboto;position:absolute; width:100%;height:100%;top: 24%;left:5%;text-align:left;text-style:bold;font-size: 300%;"><b>What's a video?</b></div>
+                                            <div style="color:white;font-family: Roboto;position:absolute; width:100%;height:100%;top: 42%;left:5%;text-align:left;text-style:bold;font-size: 200%;">A collection of images, a simulation of real life.Right?</div>
+                                            <div style="color:crimson;font-family: Roboto;position:absolute; width:100%;height:100%;top: 82%;left:5%;text-align:left;text-style:bold;font-size: 300%;"><b>Not convinced...</b></div>
+                    </div>
+                                        <div class="doris" id="abc7">
+                    <div style="color:brown;font-family: Roboto;position:absolute; width:100%;height:100%;top: 12%;left:15%;text-align:left;text-style:bold;font-size: 350%;">What's FIFA?</div><div style="color:white;font-family: Roboto;position:absolute; width:100%;height:100%;top: 25%;left:15%;text-align:left;text-style:bold;font-size: 300%;">It is a simulation of <span style="color:blue;">Football</span><br/> which within itself even has<br/>a simulation of itself.</div>
+                                            <div style="color:crimson;font-family: Roboto;position:absolute; width:100%;height:100%;top: 72%;left:35%;text-align:left;text-style:bold;font-size: 300%;">Some more examples..</div>
+                    </div>
+                                        <div class="doris" id="abc8">
+                    <div style="color:brown;font-family: Roboto;position:absolute; width:100%;height:100%;top: 12%;left:5%;text-align:left;text-style:bold;font-size: 200%;">A simulation of war : <a href="www.tribalwars.net" target="_blank">www.tribalwars.net</a></div>
+                    <div style="color:aqua;font-family: Roboto;position:absolute; width:100%;height:100%;top: 20%;left:5%;text-align:left;text-style:bold;font-size: 200%;">A simulation of flying : A flight simulator</div>
+                    <div style="color:cornflowerblue;font-family: Roboto;position:absolute; width:100%;height:100%;top: 28%;left:5%;text-align:left;text-style:bold;font-size: 200%;">A simulation of smartness dubbed as AI : <a href="www.elbot.com" target="_blank">www.elbot.com</a></div>
+                                            <div style="color:chartreuse;font-family: Roboto;position:absolute; width:100%;height:100%;top: 40%;left:5%;text-align:left;text-style:bold;font-size: 200%;"><b>Food for thought</b></div><div style="color:chartreuse;font-family: Roboto;position:absolute; width:100%;height:100%;top: 48%;left:5%;text-align:left;text-style:bold;font-size: 200%;"><b>A simulation of eye : A camera</b></div>
+                                            <div style="color:azure;font-family: Roboto;position:absolute; width:100%;height:100%;top: 85%;right:5%;text-align:right;text-style:bold;font-size: 300%;">The world in simulation</div>
+                    </div>
+                                        <div class="doris" id="abc9">
+                                            <div style="color:yellow;font-family: Roboto;position:absolute; width:100%;height:100%;top: 12%;left:2%;text-align:left;text-style:bold;font-size: 250%;">You would have noticed a simulation does nothing but reduce complexity,</div>
+                                            <div style="color:grey;font-family: Roboto;position:absolute; width:100%;height:100%;top: 40%;left:2%;text-align:left;text-style:bold;font-size: 350%;"><b>and that's what's it's essence is.</b></div>
+                    </div>
+                                        <div class="doris" id="abc10">
+                    <div style="color:red;font-family: Roboto;position:absolute; width:100%;height:100%;top: 45%;left:2%;text-align:left;text-style:bold;font-size: 150%;">Now the procedure to get a picture of the Mission would be:</div>
+                                            <div style="color:orange;font-family: Roboto;position:absolute; width:100%;height:100%;top: 55%;left:2%;text-align:left;text-style:bold;font-size: 200%;">1. get clear about each word<br/> 2. associate it with the world around you<br/> 3. club them together</div>
+                    </div>
+                                        <div class="doris" id="abc11">
+                                            <div style="color:red;font-family: Roboto;position:absolute; width:100%;height:100%;top: 12%;left:2%;text-align:left;text-style:bold;font-size: 150%;">Now, our mission can be broken and it</div>
+                                            <div style="color:orange;font-family: Roboto;position:absolute; width:100%;height:100%;top: 20%;left:2%;text-align:left;text-style:bold;font-size: 150%;">1. is to discover a procedure for development<br/> 2. of an intergalactic space mission<br/> 3. by the active development of companies<br/> 4. with diverse goals<br/> 5. which are probabilistic in nature</div>
+                                            <div style="color:red;font-family: Roboto;position:absolute; width:100%;height:100%;top: 60%;left:2%;text-align:left;text-style:bold;font-size: 100%;">we missed the <span style="color:orange;">"simulating it on earth"</span> there, cause now we already know about it</div>
+                                            <div style="color:crimson;font-family: Roboto;position:absolute; width:100%;height:100%;top: 80%;left:2%;text-align:left;text-style:bold;font-size: 250%;"><b>pop me again..</b></div>
+                    
+                    </div>
+                                        <div class="doris" id="abc12">
+                   ...Laters
+                    </div>
+                    
+                </div>
+
+</div> 
+<div class="third">
+<img src="images/Untitled-3.jpg">
+</div>
+<div class="fourth">
+<div class="summary">
+   <div class="fourth_boris shadow-bottom ">
+    <h1>- Incidental Strategy -</h1>   
+        <p>
+      We at Firestone think of goals(above) as the horizon of something more beautiful, imagine the sunrise, the eclipse, it is a hope for greener pastures, likewise our goals are the horizon of our hopes of the future. These same goals give us a direction and guide our strategic endeavours.
+       </p> 
+       <br />
+       
+</div>
+    <div class="fourth_doris shadow-bottom">
+        <h1>- Tactical Strategy -</h1><p> To start our journey, we need an active User Base. We have identified that companies, organizations and startups have to spend huge time, money and effort to reach out to prospective student groups. In India with the startups fever on, hundreds of startups have to face the challenge of recruitment. Also with the nature of startups, who have limited resources, they are not able to reach to every college out there in India and are able to target only a group of colleges. We want to change this, we believe in this day and age of internet, the recruitment industry has not adapted very well, We would with your help be able to build a platform where this recruitment process is streamlined with current know-how. Our platform will give the ability to employers to sit back in there offices and reach out to each and every student in India.</p><br/>
+    </div>
+</div>
+<div class="slideB">
+     <div class="tdoris" id="uvw01" >
+         <div><br/><h1>FOR USERS</h1>
+
+                           <span> We aim to provide targeted content so that our users are able to spend 12 minutes everyday on our webapps.             </span></div>
+         <div><br/><br/><h1>FOR CUSTOMERS</h1><br/>
+
+                           <span> We aim to provide an unparalled experience for the time they choose to spend on  us.
+             </span></div><br/><br/>
+                    <div style="position:absolute;width:100%;height:10%;text-align:left;left:4%;color:black;">#BusinessArchitecture</div>                   <div style="position:absolute;width:100%;height:10%;text-align:right;right:5%;color:black;">             1/4 -></div>
+                    </div>
+                        <div class="tdoris" id="uvw02">
+                            <div> <h1>FEATURES for website</h1>
+                                                    <span>
+                               1.One click Interview PANEL</span><br/>
+                                             <spa>    - Set up meeting<br/>
+                                - Direct Skype interview<br/></spa>
+                                              <br/>
+                                <span>2. REDUCED JOB PANEL</span><br/>
+                                             <spa>   -BULK JOB POSTING<br/>
+                                                -DIRECT OFFER JOB<br/>
+                                                -CHECK DOCUMENTS<br/>
+                                                 -GET CONTACT DETAILS<br/></spa>
+                                                <br/>
+                                <span>    3. POWER FILTERS</span><br/>
+                                        <spa>        -SEARCH FOR PROSPECTIVE CANDIDATES<br/>
+                                </spa></div>
+                            <div style="position:absolute;width:100%;height:10%;text-align:left;left:4%;color:black;">#BusinessArchitecture</div>                   <div style="position:absolute;width:100%;height:10%;text-align:right;right:5%;color:black;">             2/4 -></div>
+                        </div>
+                                        <div class="tdoris" id="uvw03">
+                                            <div>        <h1>MILESTONES</h1><br/><br/>
+                                    <span> 03  -BUILD WEBSITE<br/><br/>
+                                        12-CREATE SELF LEARNING SEARCH ALGORITHM ON OUR WEBSITE FOR SMART FILTERS<br/><br/>
+                                        24-DEPLOY PLATFORM<br/></span>
+                                            </div><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                                             <div style="position:absolute;width:100%;height:10%;text-align:left;left:4%;color:black;">#BusinessArchitecture</div>                   <div style="position:absolute;width:100%;height:10%;text-align:right;right:5%;color:black;">             3/4 -></div>
+                                            </div>
+                                        <div class="tdoris" id="uvw04">
+                                            <div>your skill, my talent, lets pool them to create something beautiful.DESIGNS are ready.</div>
+                    </div>
+</div>
+</div>
+<div class="fifth">
+<div class="aboutme">
+    In the 90's in India, the 3 most known Music Labels in India were T-Series, Tips and then Sun Casettes. The third was my Dad's. Also his hobbies included from collecting coins to climbing Mt. Everest.
+    I myself credited to above, have a business mindset, unafraid nature and I like to indulge in all matters and mannerisms. I'll outline by BIZ interests here for you.
+</div>
+<div class="photo">
+<div class="slideC">
+    <div class="fifth_boris" id="xyz01"><br/>
+        <b> PERSONAL INTERESTS</b><br/> <br/><h1>1. AI WISDOM :</h1><br/>
+I don't think artificial intelligence should be artificial, nor that it's unnatural to have real intelligence in AI. I want to explore and understand  AI.<br/><br/>
+        <h1>2. SPACE ART </h1>
+
+    </div>
+    <div class="fifth_boris" id="xyz02"><br/>
+        <b>MONEY INTERESTS</b><br/><br/><h1> 1. 3D Printing <br/>2. 3D Video <br/>3. 3D Web</h1><br/><br/>
+These 3 fields have the easiest and the most prolific money making opportunities.
+
+    </div>
+    <div class="fifth_boris" id="xyz03"><br/><br/>
+        <b>AMBITIOUS INTERESTS</b> <br/> <br/><h1>E-COMMERCE :</h1><br/> Web 3.0 and IOT will change ECOMMERCE. I would like to stay in sync.
+
+    </div>
+    <div class="fifth_boris" id="xyz04"><br/>
+        <b>NECESSARY INTERESTS</b><br/><br/>
+        <h1>IOT – INTERNET OF THINGS</h1><br/>
+    <br/><br/>
+    This is something which is the next big thing. As I plan to diversify. I would never want to outsource IOT. IT WOULD BE REDUNDANT IN THE FUTURE if you can't be smart. THE MOMENT I have extra cash I would put it in IOT R&amp;D.<br/>
+
+    </div>
+</div>
+</div>
+</div>
+<div class="fifth_part2">
+        <div class="Akul">
+      
+        <p>
+            As you can imagine how unforgiving the financials can be,  we have with some good fortune with us onboard a young, skilled and very talented <b>Charted Accountant</b>. We could not get a better guy than him for the role. Sorry, his profile isn't available currently.
+       </p> 
+</div>
+        <div  style="position:absolute;text-align:center;height:100px:width:100%;font-size:400%;left:33%;color:white;" class="partner">
+    OPPORTUNITIES
+    </div>
+            <div class="a1">
+            <div style="position:absolute;width:100%;height:100%;left:20%;top:5%;font-size:300%;"><b>PARTNERSHIP</b></div>
+            <div style="position:absolute;width:100%;height:100%;left:20%;top:40%;"><button id="opener">WEB DEVELEPOR</button></div>
+        </div>
+    <div id="dialog1" title="Well Hello">
+
+  <p>Look, The point was to get you intersted, not to create a user experience.<br/><br/>
+
+I did some C++ coding for 2 years in school and that's that. I hacked and slashed and learned to do this much
+to show that I am serious.<br/><br/>
+If you are laughing at the source code of this thing, we would get along just fine!!<br/><br/>
+
+If you are looking for experience, here this will overwhel you <a href="http://whois.wildlife.la/"  target="_blank">whois.wildlife.la</a>.<br/><br/>
+
+I am looking for a programmer to work in the role of a full stack developer and more,who can say (s)he's good. If you can do better, be my guest<br/>
+The best thing in work you can look forward to is being in control and projecting things the way you see they are  or should be.<br/>
+Apart from that a startup is different from a company due to the important fator of fun, so that's a assured return.
+      <br/>
+We are placed at Firestone right now, forget the rest as it's unimportant currently<br/>
+Who's good in my books? a person who wants to learn.<br/><br/>
+If you think you are up for this and want to connect<br/>
+write to me at ironbunny@12m.in with some kind of an introduction and contact details / Cheers//<br/><br/>
+
+      Age: less than equal to 25 :&#41;<br/><br/>
+
+//Fun Task-Make this site better (whatever you can muster in a day's worth of work or less), and attach it in the mail.</p>
+//I am a good seller and the rest of the site you can see how 
+    <br/>
+    You may prefer to use this form instead:<br/>
+        <form class="pure-form">
+                                            
+                                                <input style="position:absolute;width:23%;height:7%;left:0%;top:93%;" type="text" placeholder="* Name">
+                                                <input  style="position:absolute;width:10%;height:7%;left:23%;top:93%;" type="number" placeholder="* Age">
+                                                <input style="position:absolute;width:27%;height:7%;left:33%;top:93%;" type="tel" placeholder="* Contact no.(with country code)">
+                                                <input  style="position:absolute;width:30%;height:7%;left:60%;top:93%;" type="text" placeholder="Random link:git,linkedIn,website,social..">
+                                                <button style="position:absolute;width:10%;height:7%;left:90%;top:93%;" type="submit" class="pure-button pure-button-primary<br/>">Submit</button>
+                                            
+      </form>
+<br/><br/>
+       
+</div>
+            <div class="a2">
+        <div style="position:absolute;width:100%;height:100%;left:30%;top:0%;font-size:250%;"> <b>COMING SOON</b></div>
+        <div style="position:absolute;width:100%;height:100%;left:20%;top:30%;"><div id="opener1">MARKET FORENSICS</div></div>
+        <div style="position:absolute;width:100%;height:100%;left:20%;top:63%;"><div id="opener1">ASSOCIATES</div></div>
+    </div>
+            <div class="a3">
+                                <div style="position:absolute;width:100%;height:100%;left:14%;top:2%;font-size:300%;"> <b>STAY UPDATED</b></div>
+                                
+                                               <form id="form2" class="pure-form" method="post" action="send_contact.php" target="_blank">
+                                            
+                                                <input style="position:absolute;width:20%;height:30%;left:0%;top:60%;" type="number" id="age" placeholder="Age">
+                                                <input  style="position:absolute;width:60%;height:30%;left:20%;top:60%;" type="email" id="email" placeholder="Email">
+                                                <button style="position:absolute;width:20%;height:30%;left:80%;top:60%;" type="submit" class="pure-button pure-button-primary" value="Submit" >Submit</button>
+                                            
+                                               </form>
+                                
+            </div>
+</div>
+<div class="sixth">
+    <div class="facefront">
+    <div id="sixth_boris">YOUR WORLD!</div>
+    <div id="sixth_doris">it better be BIG</div>
+    </div>
+    <div class="faceback">
+        <div id="sixth_gloria">This would be a Web 3.0 application, what a platform on Web 3.0 would look like is out of scope.<br/>
+
+Facebook, has connected around 2 billion people around the web and continues to grow. But, it is a Web 2.0 platform which means it's function for those 2 billion people has been lost with rapidly evolving web. No longer it is the sole place where people connect, it has in essence for those connected become a depository of memories. The challenge to connect the other 5 billion people still remains, and hence it's value and usefulness.
+A Web 2.0 platform will never transition to Web 3.0, it has to be built from scrath up, you can always keep improving but iteration doesn't lead to evolution.<br/><br/>
+            <p>This is just to say there is ample room for innovation. To assume we would compete with FB would be foolish.</p>
+</div>
+    <div id="sixth_sonia">Serving in 4 years.</div>
+    </div>
+</div>
+<div class= "seventh">
+     <div class="facefront">
+<div id="seventh_boris">we're bringing</div>
+    <div id="seventh_doris">
+       <svg version="1.1" id="logo123" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 960 560" style="enable-background:new 0 0 960 560;" xml:space="preserve" >
+
+	
+<defs>
+    <style type="text/css">
+        .st0{fill:#fff;stroke:#FBB03B;stroke-miterlimit:10;stroke-width:5;pointer-events:all;}
+        
+        .st0{
+        stroke-dasharray: 1500;
+        stroke-dashoffset:0;
+        -webkit-animation: dash 4s linear forwards;
+        -moz-animation: dash 4s linear forwards;
+        -o-animation: dash 4s linear forwards;
+        animation: dash 4s linear forwards;
+        }
+        #logo123:hover .st0 {
+            
+            stroke-dasharray: 1500;
+        stroke-dashoffset:0;
+        -webkit-animation: dsh 4s linear forwards;
+        -moz-animation: dsh 4s linear forwards;
+        -o-animation: dsh 4s linear forwards;
+        animation: dsh 4s linear forwards;
+            fill:#000;
+       
+        }
+        @-webkit-keyframes dash {
+        from{
+                stroke-dashoffset: 2000;
+        }
+        to {
+        
+            
+         stroke-dashoffset:0;
+        }
+        
+        }
+     
+        @-webkit-keyframes dsh {
+        from{
+                stroke-dashoffset: 2000;
+        }
+        to {
+        
+            
+         stroke-dashoffset:0;
+        }
+        
+        }
+     
+    </style>
+</defs>  
+    
+    
+<g>
+	<path class="st0" d="M76,298c11.1,8.5,27.2,14.6,44.5,14.6c19,0,36.6-11.9,36.6-34c0-15-8.5-25.2-27.8-37.1
+		c-22.8-14.3-40.1-32.7-40.1-59.9c0-43.9,32.8-71.5,72.5-71.5c21.9,0,36.3,6.5,43.9,11.6l-5.4,15.9c-3,8.8-11.2,13.5-19,10.7
+		c-6.3-2.3-14-4-22.4-3.8c-21.6,0-33.9,14.6-33.9,29.9c0,15.7,11.1,24.8,29.5,37.1c24,14.6,38.3,33,38.3,60.9
+		c0,45.9-31.9,74.2-76.1,74.2c-16.5,0-30.9-3.7-41.1-8.6c-6.5-3.2-9.6-11.9-6.9-19.5L76,298z"/>
+</g>
+<path class="st0" d="M280.1,148.6h-54.7l3.9-23.2c1.1-6.7,6.2-11.6,12.1-11.6h133.5l-2.6,15.7c-1.9,11-10.2,19-19.9,19h-38.3
+	l-29,178.7c-1.5,9.2-8.4,15.9-16.5,15.9h-20.3L280.1,148.6z"/>
+<path class="st0" d="M526,114.5h-11.7c-8,0-15.4,4.4-19.6,12.2l-28.5,52c-8.8,17-15.2,31.7-20.5,40.7h-0.6c-1.8-9-3.8-20.5-8.2-40.2
+	l-12.1-50.9c-2-8.5-8.7-14.5-16.3-14.5c-11.5,0-19.7,13.1-16.1,25.8l30.4,107.2c0.4,1.4,0.5,2.8,0.2,4.2l-14,85.1
+	c-0.6,3.7,1.8,7.3,5.1,7.3h11c9.7,0,18-8.1,19.8-19.2l10.7-65.6c1.1-6.8,3.5-13.3,7-18.9l69.8-110.7
+	C536.5,122.9,532.7,114.5,526,114.5z"/>
+<path class="st0" d="M575.4,113.9h3.8c9.4,0,16.4,9.9,14.7,20.6L568.7,288c-1.8,10.7,5.3,20.6,14.7,20.6h41.5
+	c9.3,0,16.4,9.9,14.7,20.5v0c-1.3,8.2-7.5,14.2-14.7,14.2h-81.3c-9.4,0-16.4-9.9-14.7-20.6L560.7,128
+	C562,119.8,568.2,113.9,575.4,113.9z"/>
+<path class="st0" d="M771.9,241.2h-41.3c-10.2,0-18.9,8.4-20.8,20l-4.6,28.4c-1.7,10.4,5.2,20,14.2,20H764c9.1,0,15.9,9.6,14.2,20
+	l-2.3,13.7h-96.3c-9.1,0-15.9-9.6-14.2-20l31.9-195.7c1.3-7.9,7.3-13.7,14.2-13.7H809l-4.3,26.3c-0.7,4.3-3.9,7.4-7.7,7.4h-33.5
+	c-20.4,0-38,16.9-41.8,40.2v0c-1.7,10.4,5.1,20,14.2,20h48.2c2.8,0,4.9,2.9,4.3,6.1l-2.3,13.6C784.8,235.5,778.9,241.2,771.9,241.2z
+	"/>
+</svg>
+
+        </div>
+    <div id="seventh_gloria">back</div>
+    <div id="seventh_sonia"><b>THE</b> clothing line</div>
+    </div>
+     <div class="faceback">
+    <div id="seventh_juzab">serving in two years!</div>
+    </div>
+</div>
+<div class= "eighth">
+    <div id="eighth_boris">ENTER <span>GLOBAL AERIAL SUPPLY CHAIN</span></div>
+    <div id="eighth_doris" style="position:absolute; width:auto;height:auto;top:0%;z-index:-1;"><img style="zoom:63%" src="images/eighth_bg.jpg"/></div>
+</div>
+<div class="ninth">
+    <blockquote>
+    <div class="ninth_boris">"The digital era will dwarf what's occured in the information era and the value of the Internet today. As leaders, if you don't transform and use this technology differently-if you don't reinvent yourself, change your organization structure; if you don't talk about speed of innovation- you're going to get disrupted. And it'll be a brutal disruption, where the majority of companies would not exist in a meaningful way 10 to 15 years from now"
+    </div><br/>
+    
+    <div style="text-align:right;" class="ninth_doris">
+    John Chambers, CEO Cisco
+    </div><br/>
+        </blockquote>
+    <div class="ninth_gloria">
+        
+        Now, are you doing a job, think about your company whether it's leaders have foresight or not. If you are doubtful, no point in living in doubt, is there?
+        <br/>
+        Who am I again> I am a freethinker, I don't get misled by false opinions, we don't talk about what's happening in the world, we talk about what will happen, we don't talk about problems, we talk about solutions.<br/> 
+         The Mission you read above is not Stupid shit, it's Intelligent shit.<br/>
+        So, If you weren't interested yet, get interested,<br/> Think of this an opportunity. Would you want to miss it.
+        <br/><span style="color:burlywood ">write to me at ironbunny@12m.in &#124;&#124;&#124; Expect to feel blessed by the freedom of a startup!</span>
+    </div>
+    </div>
+<div class="tenth">
+    <div style="text-align:center;color:black;-moz-text-decoration-style: underline;-moz-text-decoration:underline;
+    text-decoration: underline;font-size:150%;" class="tenth_boris">
+        <b>HERE's A RELEVATION, SO THAT YOU DON'T FEEL I WASTED YOUR TIME!</b>
+    </div>
+    <div class="tenth_doris">
+        I started with a mission...to start diverse companies....and ended at....majority of companies won't exist in a meaningful way...Look how many diverse companies have started. Let me present you with a bird's eye view.
+        <br/>
+        <blockquote>
+        Think about this: Who Owns these startups? Where do they get funding?...they are currently jointly owned by CORPORATES, who <b>ponzi</b> Venture Capitalists under various banners....and these startups flourish, but what are they? Inexperienced business people, every company wants entrepreneurial activity, but can't make it possible, so they disinvest in other entrepreneurs, Mr. Ratan Tata is literally in your pockets, yeah they do philanthrophic stuff too...and though they are rising like rockstars now, there will be a point when they are down, 2 years, 5 years, 10 years even...and up comes a BIG FISH to bail them out, buys them out, under what, a technologically superior banner due to piled stocks of saved money. So yeah these entrepreneurs will be paid well for there share, but the consequences of job cuts will be bad...Why? technology is changing, the cheap labour is still a better viablity...anyhow here's something for our budding entrepreneurs to present in there VC seed rounds, you'll make those who manage these feel stupid. And now you understand this too.
+        <br/><br/>
+        Startups are being run by corporate funding for a reason, not just of profitabilty. But we aren't that kind of venture.
+        </blockquote>
+    </div>
+    <div class="tenth_gloria">
+    So, hey develepor, you still here, don't worry about money, we'll soon be POURING IN MONEY, A hailstorm if you would allow me.<br/>    
+        
+        You are in for a fun ride of your life, and this was just the tip of the iceberg<br/>
+        <span style="color: brown ">Here's the address again: sarthak.ib@gmail.com &ang; Want to beat the market return, work on your own Share<br/></span>
+    </div>
+    </div>
+    
+<img style=" margin-left: 20px;brightness:200%;zoom:200%;"src="images/sharing.png">
+    <div class="eleventh">
+        <div  style="position:absolute;color: #F90B6D; width:85%;left:15%; font-family: 'Open Sans', sans-serif; font-size: 140%; font-weight: 200; text-align:center;background-color:beige;"><b>A startup solving a problem is like a boat in an ocean without a rudder and destination, it's just trying to stay afloat.</b>
+        
+        </div>
+        <div class="twelfth" style="position:absolute;width:15%;margin-left:5px;">
+    <div style="margin-bottom:10px;"class="fb-share-button" data-href="http://www.12m.in" data-layout="button"></div>
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.12m.in" data-size="large">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+            <script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
+<script type="IN/Share" data-url="http://www.12m.in"></script>
+    </div>
+    </div>
+    
+    <script src="jscript/slideA.js" type="text/javascript"></script>
+</body>
+</html>
